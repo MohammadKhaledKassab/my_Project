@@ -21,4 +21,7 @@ urlpatterns = [
     path('student/', include('student.urls')),
     path('myapp/', include('myApp.urls')),
     path('registration/', include('registration.urls')),
+    path('upload/', include('profil_maker.urls')),
+    path('', include('home.urls')),
+    path('ajax/', include('post.urls')),
 ]
